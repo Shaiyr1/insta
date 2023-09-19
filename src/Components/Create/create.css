@@ -1,0 +1,30 @@
+.ReactModal__Overlay .ReactModal__Overlay--after-open {
+    background-color: black;
+}
+
+
+.create {
+    width: 600px !important;
+    height: 250px;
+    position: relative;
+    margin: 100px auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.create-input {
+    margin: -30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-close {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    
+}
+.btns {
+    margin-top: 60px;
+}

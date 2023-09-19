@@ -1,0 +1,77 @@
+.reels {
+    width: 400px;
+    margin: 30px auto;
+}
+.reels__block {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.reels__video {
+    width: 85%;
+    height: 600px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: bisque;
+}
+.user {
+    width: 176px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.userIcon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.userId {
+    display: flex;
+    align-items: center;
+}
+.comments {
+    margin-left: 5px;
+}
+.song {
+    width: 255px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.singIcon {
+    cursor: pointer;
+}
+.icon {
+    margin-right: 0px;
+
+}
+
+.icons {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.icons_icon {
+    margin-top: 30px;
+}
+span {
+    cursor: pointer;
+}
+
+
+.icons_icon-like {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+
+.burger {
+    position: relative;
+  }
+  
+  .searchs {
+    /* width: 0; */
+    height: 100vh;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Change this value as needed to control the initial position */
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+    transition: left 0.5s;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  .burger-active + .searchs {
+    left: 225px;
+    display: block;
+  }
+  

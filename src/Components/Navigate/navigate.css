@@ -1,0 +1,12 @@
+.navigate {
+    width: 1000px;
+    margin: 30px auto;
+}
+.row {
+    /* display: flex; */
+}
+.navigate_img {
+    width: 208px !important;
+    height: 196px;
+    cursor: pointer;
+}

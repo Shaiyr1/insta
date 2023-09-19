@@ -1,0 +1,35 @@
+.messages {
+    width: 424px;
+    height: 100vh;
+    margin-left: 216px;
+    padding: 10px;
+    border-right: 1px solid gainsboro;
+}
+.message-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message-avatar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.message-avatar:hover {
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+.message-avater-text {
+    margin-left: 10px;
+}
+
+@media (max-width: 1002px) {
+    .messages {
+        margin-left: 30px;
+    }
+}

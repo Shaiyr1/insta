@@ -1,0 +1,102 @@
+.humburger .hamburger-active {
+    background-color: black;
+}
+
+.navbar-link {
+    position: relative;
+}
+
+.head-links-container {
+    display: none;
+    left: auto;
+    transition: 0.5s;
+}
+
+.head-links-container.change {
+    width: 424px;
+    height: 100vh;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(0%);
+    transition: transform 0.5s; 
+    position: fixed;
+    z-index: 2;
+    border-right: 1px solid rgb(176, 176, 176);
+}
+
+
+.head-links {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-link {
+    display: flex;
+    align-items: center;
+}
+.head-message {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-link {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.head-link:hover {
+    border-radius: 5px;
+    background-color: rgb(225, 225, 225);
+}
+
+.head-link-text {
+    margin-left: 10px;
+}
+
+.head-two {
+    margin-top: 5px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+
+
+.follow {
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media (max-width: 1002px) {
+    .navbar-link{
+      font-size: 0; /* Hide text by setting font-size to 0 */
+    }
+    .head-links-container.change {
+        width: 424px;
+        height: 100vh;
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        display: block;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(0%);
+        transition: transform 0.5s;
+        position: fixed;
+        z-index: 2;
+        border-right: 1px solid rgb(176, 176, 176);
+    }
+  }

@@ -1,0 +1,34 @@
+.comment {
+    position: relative;
+}
+.conteiner  {
+    width: 300px;
+    position: absolute;
+}
+.comment__infor {
+   width: 300px;
+   padding: 10px;
+    /* background-color: white; */
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.CommChange{
+    background-color: rgb(240, 240, 240);
+    display: block;
+    position: absolute;
+   padding: 10px;
+    border-radius: 10px;
+}
+
+.comment-block {
+    margin-top: 20px;
+
+}
+
+.comment-user {
+    display: flex;
+    align-items: center;
+}
